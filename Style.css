@@ -1,5 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap'); /*fuentes */
+.courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=IM+Fell+French+Canon+SC&display=swap');
+.im-fell-french-canon-sc-regular {
+    font-family: "IM Fell French Canon SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    /* background-image: url(Recursos__img/cool-background.png); */
+    /* background-image: url(Recursos__img/cool-background\ \(2\).png); */
+    background-image: url(Recursos__img/cool-background\ \(3\).png);
+    background-size: cover;
+}
+
+.Content__Title{
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: small;
+    margin: 20px;
+}
+
+
+.Content_Links{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(206, 218, 245);
 }
