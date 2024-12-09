@@ -18,6 +18,4 @@ function llamar() {
     
     alert(`El resultado de la expresión es: ${resultado}`);
 }
-
-// Llama a la función principal para ejecutar el programa
 llamar();
