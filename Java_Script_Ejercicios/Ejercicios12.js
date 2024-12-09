@@ -1,10 +1,10 @@
 // Escribir un programa que calcule el área de un rectángulo:
 // -----------------------------
 alert("Calcular el área del triángulo");
-let base = prompt('Ingrese la base del triángulo');
-let altura = prompt('Ingrese la altura del triángulo');
+let base = prompt('Ingrese la base del rectangulo');
+let altura = prompt('Ingrese la altura del rectangulo');
 
-const calcularAreaTri = function(base, altura) {
+const calcularAreaRect = function(base, altura) {
     try {
         base = parseFloat(base);
         altura = parseFloat(altura);
@@ -21,4 +21,4 @@ const calcularAreaTri = function(base, altura) {
         alert(error.message);
     }
 }
-calcularAreaTri(base,altura);
+calcularAreaRect(base,altura);
